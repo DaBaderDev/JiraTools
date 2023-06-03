@@ -1,0 +1,13 @@
+JIRA_SERVER_URL = "https://example.atlassian.net"
+
+# Jira credentials
+JIRA_EMAIL = 'example@example.com'
+JIRA_API_TOKEN = 'example_token'
+
+# Jira project details
+JIRA_PROJECT_KEY = 'EXP'
+
+# Jira API endpoint
+JIRA_API_ENDPOINT = f'{JIRA_SERVER_URL}/rest/agile/1.0/board?projectKeyOrId={JIRA_PROJECT_KEY}'
+JIRA_BOARD_ENDPOINT = f'{JIRA_SERVER_URL}/rest/agile/1.0/board'
+JIRA_SEARCH_ENDPOINT = f'{JIRA_SERVER_URL}/rest/api/2/search'
