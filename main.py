@@ -89,8 +89,6 @@ sprint_time_chart.set_categories(categories)
 
 sprint_time_chart.y_axis.number_format = 'DD-hh:mm:ss'
 
-project_completion_chart = PieChart()
-
 sheet.add_chart(sprint_time_chart, "A1")
 
 workbook.save('chart.xlsx')
